@@ -1,6 +1,6 @@
 let router = require('express').Router()
 let {read} = require('../controllers/event')
 
-router.route('/', read)
+router.get('/', read)
 
 module.exports = router
